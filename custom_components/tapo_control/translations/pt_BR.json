@@ -7,7 +7,7 @@
         "data": {
           "ip_address": "Endereço IP"
         },
-        "description": "Digite o endereço IP da câmera.\n\nCertifique-se de criar uma conta na câmera.\n\nEsta conta da câmera é criada no app Tappo, em:\nCamera Settings > Advanced Settings > Camera Account.\n\n\n\nSe você estiver utilizando vlan ou outro tipo de rede avançada, certifique-se que as portas 443, 554 e 2020 estão abertas para a câmera."
+        "description": "TEST Digite o endereço IP da câmera.\n\nCertifique-se de criar uma conta na câmera.\n\nEsta conta da câmera é criada no app Tappo, em:\nCamera Settings > Advanced Settings > Camera Account.\n\n\n\nSe você estiver utilizando vlan ou outro tipo de rede avançada, certifique-se que as portas 443, 554 e 2020 estão abertas para a câmera."
       },
       "auth": {
         "data": {

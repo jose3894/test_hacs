@@ -7,7 +7,7 @@
         "data": {
           "ip_address": "IP Address"
         },
-        "description": "請輸入攝影機 IP 位址.\n\n請確定您有註冊攝影機帳號.\n\n可以到 Tapo App 註冊攝影機帳號:\n攝影機設定 > 進階設定 > 攝影機帳戶.\n\n\n\n如果您是使用 vlan (虛擬區域網路), 或是其他 advanced networking, 請確保 port 443,554,2020 為開啟狀態"
+        "description": "TESET請輸入攝影機 IP 位址.\n\n請確定您有註冊攝影機帳號.\n\n可以到 Tapo App 註冊攝影機帳號:\n攝影機設定 > 進階設定 > 攝影機帳戶.\n\n\n\n如果您是使用 vlan (虛擬區域網路), 或是其他 advanced networking, 請確保 port 443,554,2020 為開啟狀態"
       },
       "auth": {
         "data": {
