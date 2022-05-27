@@ -1,6 +1,6 @@
 {
   "domain": "tapo_control",
-  "name": "Tapo: Cameras Control TEST",
+  "name": "Tapo: Cameras Control TESTO",
   "documentation": "https://github.com/jose3894/test_hacs",
   "issue_tracker": "https://github.com/jose3894/test_hacs/issues",
   "codeowners": ["@jose3894"],
