@@ -3,7 +3,7 @@
   "name": "Tapo: Cameras Control TEST",
   "documentation": "https://github.com/jose3894/test_hacs",
   "issue_tracker": "https://github.com/jose3894/test_hacs/issues",
-  "codeowners": ["@JurajNyiri"],
+  "codeowners": ["@jose3894"],
   "version": "3.5.0",
   "requirements": ["pytapo==2.2", "onvif-zeep-async==1.2.0"],
   "dependencies": ["ffmpeg"],
