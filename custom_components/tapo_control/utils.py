@@ -95,6 +95,7 @@ async def initOnvifEvents(hass, host, username, password):
 
         return {"device": device, "device_mgmt": device_mgmt}
     except Exception:
+        LOGGER.debug("EXCEPTION")
         pass
 
     return False
@@ -287,6 +288,7 @@ async def setupEvents(hass, entry):
     if not hass.data[DOMAIN][entry.entry_id]["events"].started:
         LOGGER.debug("Setting up events...")
         events = hass.data[DOMAIN][entry.entry_id]["events"]
+        LOGGER.debug(events)
         if await events.async_start():
             LOGGER.debug("Events started.")
             if not hass.data[DOMAIN][entry.entry_id]["motionSensorCreated"]:
