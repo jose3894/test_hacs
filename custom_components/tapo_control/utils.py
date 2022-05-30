@@ -95,6 +95,7 @@ async def initOnvifEvents(hass, host, username, password):
 
         return {"device": device, "device_mgmt": device_mgmt}
     except Exception:
+        LOGGER.debug("EXPT")
         pass
 
     return False
