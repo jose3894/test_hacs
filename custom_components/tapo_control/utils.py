@@ -77,6 +77,7 @@ async def isRtspStreamWorking(hass, host, username, password, full_url=""):
 
 
 async def initOnvifEvents(hass, host, username, password):
+    LOGGER.debug("TEST: " + socket.gethostbyname(host))
     device = ONVIFCamera(
         socket.gethostbyname(host),
         2020,
