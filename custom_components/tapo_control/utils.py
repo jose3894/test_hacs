@@ -92,7 +92,7 @@ async def initOnvifEvents(hass, host, username, password):
         device_info = await device_mgmt.GetDeviceInformation()
         if "Manufacturer" not in device_info:
             raise Exception("Onvif connection has failed.")
-
+        LOGGER.debug("device: " + device + "device_mgmt: " + device_mgmt)
         return {"device": device, "device_mgmt": device_mgmt}
     except Exception:
         LOGGER.debug("EXPT")
